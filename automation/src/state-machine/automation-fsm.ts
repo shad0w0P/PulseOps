@@ -1,4 +1,4 @@
-import { JobState, VALID_TRANSITIONS, EventLevel } from '@anas/shared';
+import { JobState, VALID_TRANSITIONS, EventLevel } from 'shared';
 import { BrowserManager } from '../bot/browser-manager';
 import { TaxPortalBot } from '../bot/tax-portal.bot';
 import { webhookEmitter } from '../services/webhook-emitter.service';

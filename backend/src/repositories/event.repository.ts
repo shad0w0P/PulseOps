@@ -1,4 +1,4 @@
-import { type AutomationEvent } from '@anas/shared';
+import { type AutomationEvent } from 'shared';
 import { EventModel, IEventDocument } from '../models/event.model';
 
 /**

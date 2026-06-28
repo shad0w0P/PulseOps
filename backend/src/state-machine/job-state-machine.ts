@@ -1,4 +1,4 @@
-import { JobState, type IStateMachine } from '@anas/shared';
+import { JobState, type IStateMachine } from 'shared';
 import { isValidTransition, isTerminalState } from './transitions';
 import { ConflictError } from '../utils/api-error';
 import { logger } from '../utils/logger';

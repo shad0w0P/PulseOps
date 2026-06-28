@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { type AutomationEvent } from '@anas/shared';
+import { type AutomationEvent } from 'shared';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api/v1';
 const BEARER_TOKEN = process.env.NEXT_PUBLIC_API_BEARER_TOKEN || 'your-api-bearer-token-here';

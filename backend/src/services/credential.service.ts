@@ -1,4 +1,4 @@
-import { type DecryptedCredential } from '@anas/shared';
+import { type DecryptedCredential } from 'shared';
 import { credentialRepository } from '../repositories/credential.repository';
 import { encrypt, decrypt } from '../utils/encryption';
 import { NotFoundError } from '../utils/api-error';

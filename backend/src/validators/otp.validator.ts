@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { otpSchema } from '@anas/shared';
+import { otpSchema } from 'shared';
 
 /**
  * Validate OTP submission request body.

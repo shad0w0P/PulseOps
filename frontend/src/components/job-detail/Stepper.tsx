@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { JobState, STATE_ORDER } from '@anas/shared';
+import { JobState, STATE_ORDER } from 'shared';
 import { STATE_LABELS } from '@/lib/constants';
 import { Check, AlertCircle, XCircle } from 'lucide-react';
 

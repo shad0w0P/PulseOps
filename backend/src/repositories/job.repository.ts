@@ -1,4 +1,4 @@
-import { JobState, type JobListFilters } from '@anas/shared';
+import { JobState, type JobListFilters } from 'shared';
 import { JobModel, IJobDocument } from '../models/job.model';
 
 /**

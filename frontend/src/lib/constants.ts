@@ -1,4 +1,4 @@
-import { JobState, EventLevel } from '@anas/shared';
+import { JobState, EventLevel } from 'shared';
 
 export const STATE_LABELS: Record<JobState, string> = {
   [JobState.CREATED]: 'Created',

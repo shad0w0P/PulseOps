@@ -1,4 +1,4 @@
-import { JobState } from '@anas/shared';
+import { JobState } from 'shared';
 import { BaseStateHandler, FSMContext, AutomationFSM } from '../automation-fsm';
 import { TaxPortalBot } from '../../bot/tax-portal.bot';
 

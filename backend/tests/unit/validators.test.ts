@@ -1,4 +1,4 @@
-import { createJobSchema, otpSchema } from '@anas/shared';
+import { createJobSchema, otpSchema } from 'shared';
 
 describe('Job Validator (PAN)', () => {
   describe('valid PANs', () => {

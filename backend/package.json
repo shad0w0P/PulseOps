@@ -1,5 +1,5 @@
 {
-  "name": "@anas/backend",
+  "name": "backend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "jest --config jest.config.ts --forceExit --detectOpenHandles"
   },
   "dependencies": {
-    "@anas/shared": "*",
+    "shared": "*",
     "express": "^4.21.0",
     "mongoose": "^8.5.0",
     "helmet": "^7.1.0",

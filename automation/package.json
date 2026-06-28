@@ -1,5 +1,5 @@
 {
-  "name": "@anas/automation",
+  "name": "automation",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "jest --config jest.config.ts --forceExit --detectOpenHandles"
   },
   "dependencies": {
-    "@anas/shared": "*",
+    "shared": "*",
     "express": "^4.21.0",
     "playwright": "^1.45.0",
     "axios": "^1.7.0",

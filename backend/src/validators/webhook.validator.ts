@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { webhookEventPayloadSchema } from '@anas/shared';
+import { webhookEventPayloadSchema } from 'shared';
 
 /**
  * Validate webhook event payload.

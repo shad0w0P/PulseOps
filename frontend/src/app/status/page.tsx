@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { Header } from '@/components/layout/Header';
 import { apiService } from '@/services/api';
-import { type HealthResponse } from '@anas/shared';
+import { type HealthResponse } from 'shared';
 import { Activity, Database, Cpu, CheckCircle, XCircle } from 'lucide-react';
 import Link from 'next/link';
 

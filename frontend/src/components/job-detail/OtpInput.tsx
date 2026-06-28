@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { apiService } from '@/services/api';
-import { otpSchema } from '@anas/shared';
+import { otpSchema } from 'shared';
 import { AlertCircle, KeyRound, Check } from 'lucide-react';
 
 interface OtpInputProps {

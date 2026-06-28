@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { type AutomationEvent } from '@anas/shared';
+import { type AutomationEvent } from 'shared';
 import { LOG_LEVEL_COLORS } from '@/lib/constants';
 import { Terminal, Scroll, Play } from 'lucide-react';
 

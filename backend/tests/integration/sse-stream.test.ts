@@ -2,7 +2,7 @@ import request from 'supertest';
 import mongoose from 'mongoose';
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import { createApp } from '../../src/app';
-import { JobState, EventLevel } from '@anas/shared';
+import { JobState, EventLevel } from 'shared';
 import { JobModel } from '../../src/models/job.model';
 import { EventModel } from '../../src/models/event.model';
 import { env } from '../../src/config/env';

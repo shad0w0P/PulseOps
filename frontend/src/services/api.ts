@@ -1,4 +1,4 @@
-import { type Job, type JobListResponse, type JobListFilters, type ApiResponse, type AggregatedMetrics, type DecryptedCredential } from '@anas/shared';
+import { type Job, type JobListResponse, type JobListFilters, type ApiResponse, type AggregatedMetrics, type DecryptedCredential } from 'shared';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api/v1';
 const BEARER_TOKEN = process.env.NEXT_PUBLIC_API_BEARER_TOKEN || 'your-api-bearer-token-here';

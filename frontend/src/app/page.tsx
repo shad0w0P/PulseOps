@@ -7,7 +7,7 @@ import { JobFilters } from '@/components/jobs/JobFilters';
 import { JobTable } from '@/components/jobs/JobTable';
 import { NewJobDialog } from '@/components/jobs/NewJobDialog';
 import { apiService } from '@/services/api';
-import { type Job, type AggregatedMetrics } from '@anas/shared';
+import { type Job, type AggregatedMetrics } from 'shared';
 import { PlayCircle, CheckCircle2, AlertTriangle, Timer, Activity, Calendar } from 'lucide-react';
 
 export default function Dashboard() {

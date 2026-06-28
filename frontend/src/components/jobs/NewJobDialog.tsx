@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { apiService } from '@/services/api';
-import { createJobSchema } from '@anas/shared';
+import { createJobSchema } from 'shared';
 import { X, Play, AlertCircle } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 

@@ -1,4 +1,4 @@
-import { JobState } from '@anas/shared';
+import { JobState } from 'shared';
 import { AutomationFSM, FSMContext, BaseStateHandler } from '../../src/state-machine/automation-fsm';
 import { BrowserManager } from '../../src/bot/browser-manager';
 

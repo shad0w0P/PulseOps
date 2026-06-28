@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import { type AutomationEvent, type WebhookEventPayload, type JobState, generateId, EventLevel } from '@anas/shared';
+import { type AutomationEvent, type WebhookEventPayload, type JobState, generateId, EventLevel } from 'shared';
 import axios from 'axios';
 import { env } from '../config/env';
 import { logger } from '../utils/logger';

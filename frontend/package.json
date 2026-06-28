@@ -1,5 +1,5 @@
 {
-  "name": "@anas/frontend",
+  "name": "frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@anas/shared": "*",
+    "shared": "*",
     "next": "^15.0.0-rc.0",
     "react": "^19.0.0-rc.0",
     "react-dom": "^19.0.0-rc.0",

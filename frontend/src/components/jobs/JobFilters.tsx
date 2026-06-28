@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { JobState } from '@anas/shared';
+import { JobState } from 'shared';
 import { STATE_LABELS } from '@/lib/constants';
 import { Search, SlidersHorizontal } from 'lucide-react';
 

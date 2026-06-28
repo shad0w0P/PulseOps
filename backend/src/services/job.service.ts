@@ -1,4 +1,4 @@
-import { JobState, generateId, maskPan, TERMINAL_STATES, type Job, type JobListFilters, type JobListResponse } from '@anas/shared';
+import { JobState, generateId, maskPan, TERMINAL_STATES, type Job, type JobListFilters, type JobListResponse } from 'shared';
 import { jobRepository } from '../repositories/job.repository';
 import { automationClientService } from './automation-client.service';
 import { credentialService } from './credential.service';

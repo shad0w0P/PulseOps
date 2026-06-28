@@ -5,7 +5,7 @@ export default {
   roots: ['<rootDir>/tests'],
   setupFiles: ['<rootDir>/tests/setup.ts'],
   moduleNameMapper: {
-    '^@anas/shared$': '<rootDir>/../shared/src',
+    '^shared$': '<rootDir>/../shared/src',
   },
   collectCoverageFrom: ['src/**/*.ts', '!src/server.ts'],
   coverageDirectory: 'coverage',

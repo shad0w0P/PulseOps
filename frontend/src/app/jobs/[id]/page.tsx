@@ -9,7 +9,7 @@ import { OtpInput } from '@/components/job-detail/OtpInput';
 import { CaptchaInput } from '@/components/job-detail/CaptchaInput';
 import { CredentialCard } from '@/components/job-detail/CredentialCard';
 import { Header } from '@/components/layout/Header';
-import { type Job, JobState } from '@anas/shared';
+import { type Job, JobState } from 'shared';
 import { STATE_LABELS, STATE_COLORS } from '@/lib/constants';
 import { AlertCircle, ArrowLeft, Ban, ShieldCheck, Cpu } from 'lucide-react';
 import Link from 'next/link';

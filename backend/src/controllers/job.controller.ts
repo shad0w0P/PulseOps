@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from 'express';
 import { jobService } from '../services/job.service';
 import { eventService } from '../services/event.service';
 import { sseManager } from '../events/sse-manager';
-import type { ApiResponse, JobListFilters } from '@anas/shared';
+import type { ApiResponse, JobListFilters } from 'shared';
 
 /**
  * Job controller — thin layer between routes and services.

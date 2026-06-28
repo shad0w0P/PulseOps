@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { apiService } from '@/services/api';
-import { type DecryptedCredential } from '@anas/shared';
+import { type DecryptedCredential } from 'shared';
 import { Shield, Eye, EyeOff, Copy, Check, Lock } from 'lucide-react';
 
 interface CredentialCardProps {

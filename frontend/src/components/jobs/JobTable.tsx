@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { type Job } from '@anas/shared';
+import { type Job } from 'shared';
 import { STATE_LABELS, STATE_COLORS } from '@/lib/constants';
 import { Eye, Clock } from 'lucide-react';
 

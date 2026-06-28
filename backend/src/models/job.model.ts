@@ -1,5 +1,5 @@
 import mongoose, { Document, Schema } from 'mongoose';
-import { JobState } from '@anas/shared';
+import { JobState } from 'shared';
 
 export interface IJobDocument extends Document {
   jobId: string;

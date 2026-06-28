@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { generateId } from '@anas/shared';
+import { generateId } from 'shared';
 
 /**
  * Attach a unique request ID to every incoming request.

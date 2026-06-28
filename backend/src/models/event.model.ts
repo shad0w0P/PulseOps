@@ -1,5 +1,5 @@
 import mongoose, { Document, Schema } from 'mongoose';
-import { EventLevel, JobState } from '@anas/shared';
+import { EventLevel, JobState } from 'shared';
 
 export interface IEventDocument extends Document {
   eventId: string;

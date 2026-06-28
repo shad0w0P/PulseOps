@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import mongoose from 'mongoose';
 import { automationClientService } from '../services/automation-client.service';
-import type { HealthResponse } from '@anas/shared';
+import type { HealthResponse } from 'shared';
 
 /**
  * Health check controller.

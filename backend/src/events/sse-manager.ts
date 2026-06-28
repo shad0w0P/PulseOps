@@ -1,5 +1,5 @@
 import { Response } from 'express';
-import { type AutomationEvent } from '@anas/shared';
+import { type AutomationEvent } from 'shared';
 import { eventBus } from './event-bus';
 import { eventRepository } from '../repositories/event.repository';
 import { logger } from '../utils/logger';

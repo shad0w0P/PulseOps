@@ -1,4 +1,4 @@
-import { type AutomationEvent, type WebhookEventPayload, JobState, TERMINAL_STATES } from '@anas/shared';
+import { type AutomationEvent, type WebhookEventPayload, JobState, TERMINAL_STATES } from 'shared';
 import { eventRepository } from '../repositories/event.repository';
 import { eventBus } from '../events/event-bus';
 import { jobService } from './job.service';

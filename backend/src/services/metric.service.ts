@@ -1,4 +1,4 @@
-import { JobState, type AggregatedMetrics } from '@anas/shared';
+import { JobState, type AggregatedMetrics } from 'shared';
 import { metricRepository } from '../repositories/metric.repository';
 import { jobRepository } from '../repositories/job.repository';
 import { logger } from '../utils/logger';

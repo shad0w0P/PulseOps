@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import { type AutomationEvent } from '@anas/shared';
+import { type AutomationEvent } from 'shared';
 import { logger } from '../utils/logger';
 
 /**

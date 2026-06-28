@@ -1,4 +1,4 @@
-import { maskPan, maskOtp, maskPassword, maskUserId } from '@anas/shared';
+import { maskPan, maskOtp, maskPassword, maskUserId } from 'shared';
 
 describe('Masking Utilities', () => {
   describe('maskPan', () => {

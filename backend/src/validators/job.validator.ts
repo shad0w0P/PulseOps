@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { createJobSchema } from '@anas/shared';
+import { createJobSchema } from 'shared';
 
 /**
  * Validate job creation request body.

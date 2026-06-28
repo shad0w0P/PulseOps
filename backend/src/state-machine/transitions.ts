@@ -1,4 +1,4 @@
-import { JobState, VALID_TRANSITIONS, TERMINAL_STATES } from '@anas/shared';
+import { JobState, VALID_TRANSITIONS, TERMINAL_STATES } from 'shared';
 
 /**
  * Valid state transition map.

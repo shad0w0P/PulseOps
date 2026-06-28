@@ -1,0 +1,10 @@
+process.env['NODE_ENV'] = 'test';
+process.env['PORT'] = '4001';
+process.env['BACKEND_WEBHOOK_URL'] = 'http://localhost:4000/api/v1/webhook/events';
+process.env['WEBHOOK_SECRET'] = 'test-webhook-secret';
+process.env['BACKEND_BEARER_TOKEN'] = 'test-automation-token';
+process.env['OTP_TIMEOUT_MS'] = '300000';
+process.env['CAPTCHA_TIMEOUT_MS'] = '180000';
+process.env['HEADLESS'] = 'true';
+process.env['SLOW_MO'] = '0';
+process.env['PORTAL_URL'] = 'https://eportal.incometax.gov.in/iec/foservices/#/login';

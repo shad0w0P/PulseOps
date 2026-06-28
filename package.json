@@ -1,0 +1,29 @@
+{
+  "name": "anas-tax-automation",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Income Tax Portal Automation Platform",
+  "workspaces": [
+    "shared",
+    "backend",
+    "automation",
+    "frontend"
+  ],
+  "scripts": {
+    "build:shared": "npm run build -w shared",
+    "build": "npm run build:shared && npm run build -w backend && npm run build -w automation && npm run build -w frontend",
+    "dev:backend": "npm run dev -w backend",
+    "dev:automation": "npm run dev -w automation",
+    "dev:frontend": "npm run dev -w frontend",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:automation\" \"npm run dev:frontend\"",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
